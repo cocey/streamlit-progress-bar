@@ -14,7 +14,7 @@ def getMb(size):
 
 col1, col2 = st.columns([5, 1])
 
-urlInput = col1.text_input(label="url")
+urlInput = col1.text_input(label="file url to download with progress")
 
 col2.write(" ")
 col2.write(" ")
